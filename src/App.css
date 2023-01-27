@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #EFE9E7;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.icerik-kutusu {
+  
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.uyeler-baslik {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0px;
+} 
+
+.uyeler-listesi {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.uye-isim {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.uye-kutusu{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 25vh;
+  height: 200px;
+}
+
+.uye-label {
+  color: #D5BBB1;
+  text-align: left;
+}
+
+.uye-ozellik  {
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-kutusu {
+  width: 60vh;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
